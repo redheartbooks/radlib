@@ -6,9 +6,9 @@ Radlib Project
 2. Second, make words work (http://www.redheartbooks.com/radlib/story/:id/words/:label)
 3. Third, make dictionary work (http://www.redheartbooks.com/radlib/dictionary/:topic/:domain)
 
-Client should first be able to conduct a **story** = Story.new(:title = "", :source = "") to create an on-the-fly story from a source (written in Radlib Syntax).
+Client should first be able to create a **story** = Story.new(:title = "", :source = "") to create an on-the-fly story from a source (written in Radlib Syntax).
 
-Afterwards, **story** will contain an array of words that must be provided a **value**. Also, story will provide a new method, **html**, which represents either the supplied word, a reference to the supplied word, or an indication that the word must be obtained.
+Afterwards, **story** will contain an array of words that must be provided a **value**. Also, story will provide a new method, **html**, which represents the entire story rendered with either the supplied word, a reference to the supplied word, or an indication that the word must still be obtained.
 
 
 Milestones
